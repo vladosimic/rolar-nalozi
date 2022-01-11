@@ -1,0 +1,9 @@
+.formContainer {
+  max-width: 500px;
+  box-shadow: 1px 15px 15px rgb(214, 214, 214);
+  padding: 10px 20px;
+}
+.formContainer input,
+.formContainer textarea {
+  font-size: 18px;
+}

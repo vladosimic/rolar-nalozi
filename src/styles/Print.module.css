@@ -1,0 +1,37 @@
+.kupac {
+  max-width: 300px;
+  box-shadow: 1px 1px 2px 2px rgb(233, 233, 233);
+  margin-left: 5px;
+  margin-top: 5px;
+  padding: 15px;
+}
+.kupac h3 {
+  padding-bottom: 5px;
+  font-size: 20px;
+  margin: 5px;
+}
+.kupac span {
+  font-size: 15px;
+}
+
+/* Rolete */
+.roleteNalogGrid {
+  display: grid;
+  grid-template-columns: 0.2fr 0.5fr 1fr 0.5fr 0.7fr 0.7fr;
+  text-align: center;
+  grid-column-gap: 15px;
+}
+.roleteNalogGrid li,
+.nalogGridPrintMreže li {
+  font-size: 12px;
+}
+.printGridNalog {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.nalogGridPrintMreže {
+  display: grid;
+  grid-template-columns: 0.2fr 2fr 2fr 0.5fr 0.7fr 0.7fr;
+  text-align: center;
+  grid-column-gap: 15px;
+}
